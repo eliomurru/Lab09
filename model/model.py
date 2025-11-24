@@ -138,7 +138,6 @@ class Model:
             incremento_valore = sum(a.valore_culturale for a in attrazioni_nuove)
 
             pacchetto_parziale.append(tour)
-
             self._ricorsione(
                 i + 1,
                 pacchetto_parziale,
